@@ -1,0 +1,70 @@
+.button{
+    height:40px;
+    width:60px;
+    margin: auto;
+    border-radius: 5px;
+    border: 0;
+    background: hsl(30, 25%, 89%);
+    border-bottom: 3px solid hsl(28, 16%, 65%);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color:hsl(221, 14%, 31%)
+}
+
+.button.double{
+    grid-column: span 2;
+    width:133px;
+}
+
+.button.nums{
+    font-size: 25px;
+}
+
+.button:active{
+    background: hsl(28, 16%, 65%);
+}
+
+.button.equals{
+    background-color: hsl(6, 63%, 50%);
+    border-bottom: 3px solid hsl(6, 70%, 34%);
+    color: hsl(0, 0%, 100%);
+}
+
+.button.equals:active{
+    background-color:hsl(6, 70%, 34%);
+}
+
+.button.resets{
+    background-color: hsl(225, 21%, 49%);
+    border-bottom: 3px solid hsl(224, 28%, 35%);
+    color:hsl(0, 0%, 100%);
+    display: block;
+    padding: 15px 0 10px 0;
+}
+
+.button.resets:active{
+    background-color:hsl(224, 28%, 35%);
+}
+
+
+.resets.theme2{
+    background-color:hsl(185, 42%, 37%);
+    border-bottom: 3px solid hsl(185, 58%, 25%);
+
+}
+.resets.theme3{
+    background-color:hsl(281, 89%, 26%);
+    border-bottom: 3px solid hsl(285, 91%, 52%);
+}
+
+.nums.theme3{
+    background-color: hsl(268, 47%, 21%);
+    border-bottom: 3px solid hsl(290, 70%, 36%);
+    color:hsl(52, 100%, 62%);
+}
+
+.equals.theme3{
+    background-color: hsl(176, 100%, 44%);
+    border-bottom: 3px solid hsl(177, 92%, 70%);
+}

@@ -1,0 +1,36 @@
+div.header{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+div.calculator{
+  width:375px;
+  padding:20px;
+
+}
+div.container-buttons{
+  margin-top:20px;
+  padding:20px;
+  background: hsl(223, 31%, 20%);
+  border-radius: 10px;
+  display:grid;
+  grid-template-columns: repeat(4,25%);
+  grid-template-rows: repeat(5, 1fr);
+  row-gap: 12px;
+}
+
+.container-buttons.theme2{
+  background-color: hsl(0, 5%, 81%);
+}
+.container-buttons.theme3{
+  background-color: hsl(268, 71%, 12%);
+}
+.header.theme2{
+  color:hsl(60, 10%, 19%);
+}
+.header.theme3{
+  color:hsl(52, 100%, 62%)
+}
