@@ -3,7 +3,7 @@
 This is a solution to the [Calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/calculator-app-9lteq5N29). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 <p align="center">
-  <img src="https://github.com/FelipeSilM/Calculator/blob/master/src/img/app_screenshot.png" width="400px" title="hover text">
+  <img src="https://github.com/FelipeSilM/Calculator/blob/master/src/img/app_screenshot.png" width="600px" title="hover text">
 </p>
 
 ## Table of contents
@@ -30,8 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/FelipeSilM/Calculator
 
 ## My process
 
